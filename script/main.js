@@ -62,6 +62,18 @@ const animationTimeline = () => {
       opacity: 0,
       y: 10
     })
+    .from(".two2", 0.4, {
+      opacity: 0,
+      y: 10,
+    })
+    .from(".two3", 0.4, {
+      opacity: 0,
+      y: 10,
+    })
+    .from(".two4", 0.4, {
+      opacity: 0,
+      y: 10,
+    })
     .to(".one",
       0.7,
       {
@@ -76,7 +88,36 @@ const animationTimeline = () => {
         y: 10
       },
     "-=1")
+    .to(".two2",
+      0.5,
+      {
+        opacity: 0,
+        y: 10
+      },
+    "-=1")
+    .to(".two3",
+      0.5,
+      {
+        opacity: 0,
+        y: 10
+      },
+    "-=1")
+    .to(".two4",
+      0.5,
+      {
+        opacity: 0,
+        y: 10
+      },
+    "-=1")
     .from(".three", 0.7, {
+      opacity: 0,
+      y: 10
+    })
+    .from(".three2", 0.7, {
+      opacity: 0,
+      y: 10
+    })
+    .from(".three3", 0.7, {
       opacity: 0,
       y: 10
     })
@@ -85,6 +126,20 @@ const animationTimeline = () => {
       {
         opacity: 0,
         y: 10
+      },
+    "+=3")
+    .to(".three2",
+      0.5,
+      {
+        opacity: 0,
+        y: 100
+      },
+    "+=3")
+    .to(".three3",
+      0.5,
+      {
+        opacity: 0,
+        y: 100
       },
     "+=3")
     .from(".four", 0.7, {

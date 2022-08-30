@@ -32,12 +32,17 @@ body {
   font-size: 4.5rem;
 }
 
-.two {
+.two, .two2, .two3 {
   font-size: 1.2rem;
   font-weight: lighter;
 }
 
-.three {
+.two4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.three, .three2, .three3 {
   font-size: 3rem;
 }
 
